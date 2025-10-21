@@ -13,6 +13,11 @@ Convert px values to rem directly in VSCode via:
 - Right-click → “Convert PX → REM”
 - Shortcut: `Ctrl + Alt + Shift + W`
 
+> 💡 **Note:**  
+> - If text is selected, only the selection will be converted.  
+> - If no text is selected, all px values on the current line (where the cursor is) will be converted automatically.
+
+
 ## Settings
 
 You can adjust conversion base and precision in `settings.json`:
